@@ -1,0 +1,21 @@
+{
+  "name": "npm-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm run build --workspace sites",
+    "hoist": "npm run hoist --workspace sites",
+    "serve": "npm run reset && npm run build && npm run hoist && http-server dist",
+    "reset": "rm -rf dist node_modules package-lock.json && npm i && mkdir dist && npm run reset --workspace sites"
+  },
+  "workspaces": [
+    "sites/eleventy"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}

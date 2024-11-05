@@ -1,0 +1,16 @@
+{
+  "name": "my-eleventy-project",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "eleventy --serve --port=8081",
+    "build": "eleventy",
+    "hoist": "cp dist ../../dist/eleventy",
+    "reset": "rm -rf dist node_modules package-lock.json && npm i"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^3.0.0",
+    "@11ty/eleventy-plugin-handlebars": "^1.0.0",
+    "sass": "^1.80.6",
+    "typescript": "^5.6.3"
+  }
+}

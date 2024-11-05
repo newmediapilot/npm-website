@@ -1,0 +1,10 @@
+{
+  "routes": {
+    "index": "/index"
+  },
+  "content": {
+    "en-US": {
+      "lang": "en-US"
+    }
+  }
+}
