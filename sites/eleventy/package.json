@@ -4,8 +4,8 @@
   "scripts": {
     "dev": "eleventy --serve --port=8081",
     "build": "eleventy",
-    "hoist": "cp dist ../../dist/eleventy",
-    "reset": "rm -rf dist node_modules package-lock.json && npm i"
+    "hoist": "cp -r dist ../../dist/eleventy",
+    "reset": "rm -rf dist node_modules package-lock.json && npm i && mkdir dist"
   },
   "devDependencies": {
     "@11ty/eleventy": "^3.0.0",
