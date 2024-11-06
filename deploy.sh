@@ -7,11 +7,11 @@ npm run reset
 npm run build
 npm run hoist
 
-# Remove .gitignore so we can push dist folder one time
+# Remove .gitignore so we can push docs folder one time
 rm .gitignore
 
 # Push to pages
-git add ./dist
+git add ./docs
 git commit -m "[automated] build generated"
 git push
 
