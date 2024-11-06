@@ -23,3 +23,5 @@ git checkout main
 
 echo "------------------------------------------------"
 echo "deployment completed, we are back on branch main"
+
+start https://newmediapilot.github.io/npm-website/
