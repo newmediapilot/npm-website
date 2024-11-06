@@ -1,5 +1,5 @@
 # Switch to deployable branch
-git checkout public
+git checkout gh-pages
 
 # Create pages
 npm run reset
