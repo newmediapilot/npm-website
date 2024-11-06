@@ -8,7 +8,7 @@
     "hoist": "npm run hoist --workspace sites",
     "serve": "npm run reset && npm run build && npm run hoist && http-server docs",
     "deploy" : "chmod u+x deploy.sh && deploy.sh",
-    "reset": "rm -rf dist node_modules package-lock.json && npm i && mkdir dist && npm run reset --workspace sites"
+    "reset": "rm -rf docs node_modules package-lock.json && npm i && mkdir docs && npm run reset --workspace sites"
   },
   "workspaces": [
     "sites/eleventy"
